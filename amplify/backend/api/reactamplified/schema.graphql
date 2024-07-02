@@ -1,0 +1,6 @@
+type UntitledModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  address: String
+  price: Float
+  image_url: String
+}
